@@ -1,0 +1,97 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="title">Jimmy's Diner</h1>
+            <p class="catch">The best burgers and pizzas in town.</p>
+        </header>
+        <main>
+            
+            <section class="item">
+                <div class="block">
+                    <img src="./images/pizza.png" class="icon" />
+                    <div class="price">
+                        <h2>Pizza</h2>
+                        <p class="ingredients">pepperoni,mushrom,mozarella</p>
+                        <p class="item-price">$14</p>
+                    </div>
+                </div>
+                <button id="add-pizza" class="add"> + </button>
+            </section>
+            
+            <section class="item">
+                <div class="block">
+                    <img src="./images/burger.png" class="icon" />
+                    <div class="price">
+                        <h2>Hamburger</h2>
+                        <p class="ingredients">beef, cheese, lettuce</p>
+                        <p class="item-price">$12</p>
+                    </div>
+                </div>
+                <button id="add-burger" class="add"> + </button>
+            </section>
+            
+            <section class="item">
+                <div class="block">
+                    <img src="./images/beer.png" class="icon" />
+                    <div class="price">
+                        <h2>Beer</h2>
+                        <p class="ingredients">grain, hops, yeast, water</p>
+                        <p class="item-price">$12</p>
+                    </div>
+                </div>
+                <button id="add-beer" class="add"> + </button>
+            </section>
+            
+            <section id="order" class="hide">
+                <p class="order-title">Your order</p>
+                
+                <div id="orders">
+                    <!-- <div class="item-total">
+                        <div class="order-item">   
+                            <p>pizza</p>
+                            <button class="remove" data-id="${menuArray[0].id}">remove</button>
+                        </div>
+                        <p>$14</p>
+                    </div>
+                    
+                    <div class="item-total">
+                        <div class="order-item">   
+                            <p>pizza</p>
+                            <button class="remove" data-id="${menuArray[1].id}">remove</button>
+                        </div>
+                        <p>$14</p>
+                    </div> -->
+                </div>
+                <hr>
+                
+                <div class="item-total">
+                    <p>Total price:</p>
+                    <p id="total">$26</p>
+                </div>
+                <button id="complete-order" class="complete-order">Complete Order</button>
+            </section>
+            
+            <section id="pay-window" class="pay hide">
+                <p>Enter card details</p>
+                <form id="pay-form">
+                    <input placeholder="Enter your name"  name="name" />
+                    <input placeholder="Enter card number" name="card-number" />
+                    <input placeholder="Enter CVV" name="CVV" />
+                    <button id="pay">Pay</button>
+                </form>
+                
+            </section>
+            
+            <!-- <section id="thank-you" class="thank-you">
+                <p>Thank you for you order!</p>
+            </section> -->
+            
+        </main>
+        
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+

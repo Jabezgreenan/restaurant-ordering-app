@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0px;
+} 
+
+
+.title{
+    margin-bottom: 0px;
+    
+}
+.catch{
+    margin: 5px 0 30px 0;
+}
+
+header {
+    padding: 45px;
+    background-image: url('/images/burgerheader.png');
+    background-size: cover;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px black;
+}
+
+
+main {
+    padding: 0px 40px;
+}
+
+.item {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #D2D2D2;
+    padding-bottom: 50px;
+    
+}
+
+.add {
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid #DEDEDE;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.price > *{
+    margin: 0px;
+}
+
+.icon {
+    width: 70px;
+    height: 90px;
+}
+
+.remove {
+    border: 0;
+    background-color: unset;
+    color: #BBBBBB;
+}
+
+.item-price {
+    font-weight: 600;
+}
+
+.order-item {
+    display: flex;
+    gap: 13px;
+}
+
+.item-total {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+    font-weight: 600;
+}
+
+.order-title{
+    text-align: center;
+    font-size: xx-large;
+    margin: 100px auto;
+    font-weight: 600;
+}
+
+.complete-order {
+    margin-top: 50px;
+    font-weight: 800;
+    color: white;
+    background-color: #16DB99;
+    border: 0;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 10px;
+    
+}
+
+.pay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    position: fixed;
+    z-index: 1; 
+    width: 550px;
+    height: 380px;
+    border-radius: 10px;
+    inset: 0;
+    margin: auto;
+    background: white;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    
+}
+
+.hide {
+    display: none;
+}
+
+.pay p {
+    font-weight: 600;
+}
+
+form > input {
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid #757575;
+}
+
+
+
+#pay {
+    background-color: #16DB99;
+    color: white;
+    border: 0;
+    padding: 20px;
+    font-weight: 600;
+    
+}
+
+#pay:hover, .complete-order:hover {
+    background-color: white;
+    color:  #16DB99;
+}
+
+.thank-you {
+    margin-top: 50px;
+    color: #065F46;
+    text-align: center;
+    padding: 50px 60px;
+    font-size: large;
+    font-weight: 600;
+    background-color: #ECFDF5;
+     margin-bottom: 50px;
+}
+
+.ingredients {
+    color: #8B8B8B ;
+    margin: 5px auto;
+}
+
+.add:hover{
+    background-color: #757575;
+    color: white;
+}
+
+.complete-order {
+    margin-bottom: 50px;
+}
